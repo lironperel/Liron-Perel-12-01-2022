@@ -148,13 +148,7 @@ function WeatherBox(props) {
 
         <WeatherIcon iconNumber={weatherData.icon} />
 
-        <Typography
-          variant="h6"
-          gutterBottom
-          textAlign="center"
-          fontSize="1em"
-          noWrap
-        >
+        <Typography variant="h6" gutterBottom textAlign="center">
           {weatherData.desc}
         </Typography>
         <Typography variant="h6" gutterBottom textAlign="center" noWrap>
