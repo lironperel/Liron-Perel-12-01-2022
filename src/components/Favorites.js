@@ -53,7 +53,7 @@ function Favorites() {
               No Favorites!
             </Typography>
             <Typography variant="h6" color="GrayText">
-              Please add your favorite cities from home screen
+              Please add your favorite cities from home screen...
             </Typography>
           </Box>
         )}
