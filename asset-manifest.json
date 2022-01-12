@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Liron-Perel-12-01-2022/static/css/main.ac76df06.css",
-    "main.js": "/Liron-Perel-12-01-2022/static/js/main.87ee3427.js",
+    "main.js": "/Liron-Perel-12-01-2022/static/js/main.b09b8131.js",
     "static/js/787.6f34668a.chunk.js": "/Liron-Perel-12-01-2022/static/js/787.6f34668a.chunk.js",
     "index.html": "/Liron-Perel-12-01-2022/index.html",
     "main.ac76df06.css.map": "/Liron-Perel-12-01-2022/static/css/main.ac76df06.css.map",
-    "main.87ee3427.js.map": "/Liron-Perel-12-01-2022/static/js/main.87ee3427.js.map",
+    "main.b09b8131.js.map": "/Liron-Perel-12-01-2022/static/js/main.b09b8131.js.map",
     "787.6f34668a.chunk.js.map": "/Liron-Perel-12-01-2022/static/js/787.6f34668a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac76df06.css",
-    "static/js/main.87ee3427.js"
+    "static/js/main.b09b8131.js"
   ]
 }
