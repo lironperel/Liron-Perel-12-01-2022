@@ -24,7 +24,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Box
           sx={{
             display: "flex",
@@ -44,7 +44,7 @@ function App() {
             }}
           >
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route exact path="/" element={<Home />} />
               <Route path="/favorites" element={<Favorites />} />
             </Routes>
           </Container>
