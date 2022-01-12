@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { useMemo } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import CssBaseline from "@mui/material/CssBaseline";
+import Box from "@mui/material/Box";
+import { Container } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+import Header from "./components/Header";
+import Home from "./components/Home/Home";
+import Favorites from "./components/Favorites";
+import ErrorDialog from "./components/ErrorDialog";
+
+import { useSelector } from "react-redux";
 
 function App() {
+  const themeData = useSelector((state) => state.theme.value);
+
+  // Update the theme only if the mode changes
+  const theme = useMemo(() => createTheme(themeData.data), [themeData]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Box
+          sx={{
+            display: "flex",
+            flex: 1,
+            height: "100%",
+            flexDirection: "column",
+            bgcolor: "background.default",
+            color: "text.primary",
+            m: 0,
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <ErrorDialog />
+          <Header />
+          <Container
+            sx={{
+              mt: 5,
+            }}
+          >
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/favorites" element={<Favorites />} />
+            </Routes>
+          </Container>
+        </Box>
+      </Router>
+    </ThemeProvider>
   );
 }
 
