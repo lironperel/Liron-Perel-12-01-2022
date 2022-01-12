@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ac76df06.css","mappings":"AAAA,EACI,6BACF,CAEF,KACI,QAAS,CACT,SACJ","sources":["App.css"],"sourcesContent":["* {\n    font-family: Roboto, sans-serif;  \n  }\n\nbody {\n    margin: 0;\n    padding: 0;\n}"],"names":[],"sourceRoot":""}
