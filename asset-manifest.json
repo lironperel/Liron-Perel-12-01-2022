@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/liron-perel-12-01-2022/static/css/main.ac76df06.css",
-    "main.js": "/liron-perel-12-01-2022/static/js/main.448e1742.js",
-    "static/js/787.6f34668a.chunk.js": "/liron-perel-12-01-2022/static/js/787.6f34668a.chunk.js",
-    "index.html": "/liron-perel-12-01-2022/index.html",
-    "main.ac76df06.css.map": "/liron-perel-12-01-2022/static/css/main.ac76df06.css.map",
-    "main.448e1742.js.map": "/liron-perel-12-01-2022/static/js/main.448e1742.js.map",
-    "787.6f34668a.chunk.js.map": "/liron-perel-12-01-2022/static/js/787.6f34668a.chunk.js.map"
+    "main.css": "/Liron-Perel-12-01-2022/static/css/main.ac76df06.css",
+    "main.js": "/Liron-Perel-12-01-2022/static/js/main.6da9ee3d.js",
+    "static/js/787.6f34668a.chunk.js": "/Liron-Perel-12-01-2022/static/js/787.6f34668a.chunk.js",
+    "index.html": "/Liron-Perel-12-01-2022/index.html",
+    "main.ac76df06.css.map": "/Liron-Perel-12-01-2022/static/css/main.ac76df06.css.map",
+    "main.6da9ee3d.js.map": "/Liron-Perel-12-01-2022/static/js/main.6da9ee3d.js.map",
+    "787.6f34668a.chunk.js.map": "/Liron-Perel-12-01-2022/static/js/787.6f34668a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac76df06.css",
-    "static/js/main.448e1742.js"
+    "static/js/main.6da9ee3d.js"
   ]
 }
